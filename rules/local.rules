@@ -1,0 +1,1 @@
+alert tcp any any -> $HOME_NET any (msg:"LOCAL TCP SYN DETECTED"; flags:S; sid:1000003; rev:1;)
